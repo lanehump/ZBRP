@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_STOCK_01</Name>
+			<Model>m870_stock1</Model>
+			<LocName>"STOCK"</LocName>
+			<LocDesc>"STOCK"</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_STOCK_02</Name>
+			<Model>m870_stock2</Model>
+			<LocName>"STOCK"</LocName>
+			<LocDesc>"STOCK"</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_STOCK_03</Name>
+			<Model>m870_stock3</Model>
+			<LocName>"STOCK"</LocName>
+			<LocDesc>"STOCK"</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_STOCK_04</Name>
+			<Model>m870_stock4</Model>
+			<LocName>"STOCK"</LocName>
+			<LocDesc>"STOCK"</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_STOCK_05</Name>
+			<Model>m870_stock5</Model>
+			<LocName>"STOCK"</LocName>
+			<LocDesc>"STOCK"</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_STOCK_06</Name>
+			<Model>m870_stock6</Model>
+			<LocName>"STOCK"</LocName>
+			<LocDesc>"STOCK"</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

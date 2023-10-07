@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>
+	<Kits>
+		<Item>
+			<kitName>1233_foxnash_modkit</kitName>
+			<id value="1233" />
+			<kitType>MKT_SPECIAL</kitType>
+			<visibleMods>
+				<!-- Roof 1 -->
+				<Item>
+					<modelName>foxnash_roof1</modelName>
+					<modShopLabel>foxnash_roof1</modShopLabel>
+					<linkedModels />
+					<turnOffBones />
+					<type>VMT_ROOF</type>
+					<bone>chassis</bone>
+					<collisionBone>mod_col_1</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- Roof 2 -->
+				<Item>
+					<modelName>foxnash_roof2</modelName>
+					<modShopLabel>foxnash_roof2</modShopLabel>
+					<linkedModels />
+					<turnOffBones />
+					<type>VMT_ROOF</type>
+					<bone>chassis</bone>
+					<collisionBone>mod_col_1</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- Roof 3 -->
+				<Item>
+					<modelName>foxnash_roof3</modelName>
+					<modShopLabel>foxnash_roof3</modShopLabel>
+					<linkedModels />
+					<turnOffBones />
+					<type>VMT_ROOF</type>
+					<bone>chassis</bone>
+					<collisionBone>mod_col_1</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- Grille Light -->
+				<Item>
+					<modelName>foxnash_light1</modelName>
+					<modShopLabel>foxnash_light1</modShopLabel>
+					<linkedModels />
+					<turnOffBones />
+					<type>VMT_BUMPER_F</type>
+					<bone>chassis</bone>
+					<collisionBone>chassis</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- Interior -->
+				<Item>
+					<modelName>foxnash_interior</modelName>
+					<modShopLabel>foxnash_interior</modShopLabel>
+					<linkedModels />
+					<turnOffBones />
+					<type>VMT_INTERIOR1</type>
+					<bone>chassis</bone>
+					<collisionBone>chassis</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- External Sunvisor -->
+				<Item>
+					<modelName>foxnash_chassis1</modelName>
+					<modShopLabel>foxnash_chassis1</modShopLabel>
+					<linkedModels />
+					<turnOffBones />
+					<type>VMT_CHASSIS</type>
+					<bone>chassis</bone>
+					<collisionBone>chassis</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- External Sunvisor -->
+				<Item>
+					<modelName>foxnash_chassis2</modelName>
+					<modShopLabel>foxnash_chassis2</modShopLabel>
+					<linkedModels />
+					<turnOffBones />
+					<type>VMT_CHASSIS</type>
+					<bone>chassis</bone>
+					<collisionBone>chassis</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- Rear Wheel -->
+				<Item>
+					<modelName>foxnash_wheel</modelName>
+					<modShopLabel>foxnash_wheel</modShopLabel>
+					<linkedModels />
+					<turnOffBones>
+						<Item>misc_r</Item>
+					</turnOffBones>
+					<type>VMT_SPOILER</type>
+					<bone>bumper_r</bone>
+					<collisionBone>bumper_r</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+				<!-- Secondary Splitter Small -->
+				<Item>
+					<modelName>foxnash_exh</modelName>
+					<modShopLabel>foxnash_exh</modShopLabel>
+					<linkedModels />
+					<turnOffBones>
+						<Item>misc_z</Item>
+						<Item>exhaust</Item>
+					</turnOffBones>
+					<type>VMT_EXHAUST</type>
+					<bone>chassis</bone>
+					<collisionBone>chassis</collisionBone>
+					<cameraPos>VMCP_DEFAULT</cameraPos>
+					<audioApply value="1.000000" />
+					<weight value="20" />
+					<turnOffExtra value="false" />
+					<disableBonnetCamera value="false" />
+					<allowBonnetSlide value="true" />
+				</Item>
+			</visibleMods>
+			<linkMods />
+			<statMods />
+      <slotNames>
+		<Item>
+			<slot>VMT_SPOILER</slot>
+			<name>Rear Wheel</name>
+		</Item>	  
+      </slotNames>
+      <liveryNames />
+		</Item>
+	</Kits>
+	<Lights></Lights>
+</CVehicleModelInfoVarGlobal>

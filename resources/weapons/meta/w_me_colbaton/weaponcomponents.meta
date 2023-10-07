@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CWeaponComponentInfoBlob>
+  <Data>
+    <Item type="CWeaponSwapData">
+      <Name>SWAP_COLBATON</Name>
+      <PedHolsterClipId>holster</PedHolsterClipId>
+      <PedHolsterCrouchClipId>Holster_Crouch</PedHolsterCrouchClipId>
+      <PedHolsterCoverClipId>low_holster</PedHolsterCoverClipId>
+      <PedHolsterDiscardClipId>Discard</PedHolsterDiscardClipId>
+      <PedHolsterCrouchDiscardClipId>discard_crouch</PedHolsterCrouchDiscardClipId>
+      <PedHolsterWeaponClipId>w_holster</PedHolsterWeaponClipId>
+      <PedUnHolsterClipId>unholster</PedUnHolsterClipId>
+      <PedUnHolsterCrouchClipId>Unholster_Crouch</PedUnHolsterCrouchClipId>
+      <PedUnHolsterLeftCoverClipId>low_l_unholster</PedUnHolsterLeftCoverClipId>
+      <PedUnHolsterRightCoverClipId>low_r_unholster</PedUnHolsterRightCoverClipId>
+      <PedUnHolsterWeaponClipId>w_unholster</PedUnHolsterWeaponClipId>
+      <AnimPlaybackRate value="0.9" />
+    </Item>
+  </Data>
+  <Infos>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_COLBATON_GRIP_01</Name>
+      <Model>w_me_colbaton_grip_01</Model>
+      <LocName>WCT_CBTN_GRIP</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="5" />
+      <HudRange value="0" />
+    </Item>
+  </Infos>
+  <InfoBlobName>Telescopic Baton by w/</InfoBlobName>
+</CWeaponComponentInfoBlob>

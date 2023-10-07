@@ -1,0 +1,31 @@
+<CVehicleModelInfoVariation>
+  <variationData>
+<Item>
+<modelName>vdcoffin02</modelName>
+<colors>
+<Item>
+<indices content="char_array">
+29
+0
+0
+3
+0
+</indices>
+</Item>
+</colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+	        <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+		</plateProbabilities>
+<lightSettings value="0" />
+<sirenSettings value="0" />
+</Item>
+  </variationData>
+</CVehicleModelInfoVariation>

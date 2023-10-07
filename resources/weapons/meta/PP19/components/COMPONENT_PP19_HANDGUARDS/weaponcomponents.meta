@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_01</Name>
+			<Model>pp19_handguard1</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_02</Name>
+			<Model>pp19_handguard2</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_03</Name>
+			<Model>pp19_handguard3</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_04</Name>
+			<Model>pp19_handguard4</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_05</Name>
+			<Model>pp19_handguard5</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_06</Name>
+			<Model>pp19_handguard6</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_07</Name>
+			<Model>pp19_handguard7</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_08</Name>
+			<Model>pp19_handguard8</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_PP19_HANDGUARD_09</Name>
+			<Model>pp19_handguard9</Model>
+			<LocName>"HANDGUARD"</LocName>
+			<LocDesc>"HANDGUARD"</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="CWeaponAccuracyModifier">
+				<AccuracyModifier value="1.000000" />
+			</AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+		</Item>
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

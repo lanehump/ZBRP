@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_m870_BARREL_01</Name>
+			<Model>m870_barrel1</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="false" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_m870_BARREL_02</Name>
+			<Model>m870_barrel2</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="false" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_m870_BARREL_03</Name>
+			<Model>m870_barrel3</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="false" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_m870_BARREL_04</Name>
+			<Model>m870_barrel4</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="false" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_m870_BARREL_05</Name>
+			<Model>m870_barrel5</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="false" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_m870_BARREL_06</Name>
+			<Model>m870_barrel6</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_m870_BARREL_07</Name>
+			<Model>m870_barrel7</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

@@ -1,0 +1,817 @@
+@font-face {
+  font-family: AXIS;
+  src: url(./AXIS.ttf);
+}
+
+
+.inventorybg {
+  width: 100%;
+  height: 100%;
+  background: url(../img/inventorybg.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.nearbyplayers .header {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1vw;
+  background: black;
+  border-top-left-radius: 0.25vw;
+  border-top-right-radius: 0.25vw;
+}
+
+.nearbyplayers .header .name {
+  position: absolute;
+  left: 5%;
+  width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-variant: small-caps;
+}
+
+.nearbyplayers .header .name i {
+  margin-right: 0.25vw;
+}
+
+.nearbyplayers .header .exit {
+  position: absolute;
+  right: 5%;
+  -webkit-transition: ease();
+  transition: ease();
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+.nearbyplayers .header .exit:hover {
+  color: red;
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite;
+}
+
+.nearbyplayers .content {
+  position: relative;
+  top: 5%;
+  max-height: 85%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 0.25vw;
+}
+
+.nearbyplayers .content .entry {
+  position: relative;
+  width: 30%;
+  height: 2vw;
+  background: rgba(20, 20, 20, 0.85);
+  margin: 0.1vw 0.2vw;
+  border-radius: 0.15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 1vw;
+  -webkit-transition: ease();
+  transition: ease();
+  -webkit-transition-duration: 0.45s;
+          transition-duration: 0.45s;
+}
+
+.nearbyplayers .content .entry:hover {
+  background: #ff7b00;
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite;
+}
+
+.notiparent {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  height: 15%;
+  bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.notiparent .notchild {
+  position: relative;
+  width: 45%;
+  height: 100%;
+  margin: 0 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.notiparent .notchild.slots {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.notiparent .notchild.items {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.notiparent .notchild .entry {
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 0.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notiparent .notchild .entry .quantity {
+  position: absolute;
+  font-size: 0.8vw;
+  color: white;
+  top: -0.5vw;
+  left: -0.5vw;
+  background: rgba(20, 20, 20, 0.75);
+  padding: 0.25vw;
+  border-radius: 100%;
+}
+
+.notiparent .notchild .entry .name {
+  position: absolute;
+  bottom: 0;
+  height: 17.5%;
+  width: 100%;
+  background: #141414;
+  font-size: 0.65vw;
+  color: white;
+  border-bottom-left-radius: 0.5vw;
+  border-bottom-right-radius: 0.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notiparent .notchild .entry .img {
+  position: absolute;
+  width: 65%;
+  height: 65%;
+  padding:0.5vw;
+  margin-bottom:0.5vw;
+  background-image: url(../img/preselt_szilva.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.settingsfullscreen {
+  position: absolute;
+  z-index: 9999;
+  right: 11%;
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settingsfullscreen .colorpicker {
+  position: absolute;
+  top: 5%;
+}
+
+.settingsfullscreen .child {
+  position: absolute;
+  top: 40%;
+  max-height: 55%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.settingsfullscreen .child .setentry {
+  position: relative;
+  width: 100%;
+  height: 2vw;
+  background: linear-gradient(150deg, rgba(41, 8, 56, 0.5) 0%, rgba(43, 3, 61, 0.65) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.55);
+          box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.55);
+  margin: 0.35vw 0;
+  border-left: 0.2vw groove #c8c8c8;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  -webkit-transition: ease();
+  transition: ease();
+}
+
+.settingsfullscreen .child .setentry.active {
+  border-left: 0.2vw groove #00a00d;
+}
+
+.settingsfullscreen .child .setentry .checked {
+  position: absolute;
+  right: 10%;
+  height: 1.2vw;
+  width: 1.2vw;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.9vw;
+  color: black;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+}
+
+.settingsfullscreen .child .setentry .checked:hover {
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite;
+}
+
+.settingsfullscreen .child .setentry .color {
+  position: absolute;
+  right: 10%;
+  width: 1.2vw;
+  height: 1.2vw;
+  color: white;
+  border-radius: 0.25vw;
+}
+
+.settingsfullscreen .child .setentry .name {
+  position: absolute;
+  left: 5%;
+  font-size: 1vw;
+  width: 60%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+}
+
+.settingsopener {
+  position: absolute;
+  left: 1%;
+  top: 2%;
+  font-size: 1.1vw;
+  color: white;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+  -webkit-transition: ease();
+  transition: ease();
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  padding: 0.25vw 0.65vw;
+  border-radius: 0.25vw;
+  z-index: 99999;
+}
+
+.settingsopener:hover {
+  background: rgba(20, 20, 20, 0.35);
+  -webkit-animation: pulse 2s ease infinite;
+          animation: pulse 2s ease infinite;
+}
+
+.settingsopener i {
+  margin-right: 0.5vw;
+}
+
+.actionpanels {
+  position: absolute;
+  height: 20%;
+  bottom: 37.9%;
+  left:36.5%;
+  
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: ease();
+  transition: ease();
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; */
+}
+
+.actionpanels input {
+
+  position: absolute;
+  border: 0;
+  outline: 0;
+  top: -22.15%;
+  background: rgba(20, 20, 20, 0.35);
+  font-size: 1.75vw;
+  color: white;
+  text-align: center;
+  font-family: "AXIS"
+
+}
+
+.actionpanels input::-webkit-input-placeholder {
+  color: grey;
+}
+
+.actionpanels input:-ms-input-placeholder {
+  color: grey;
+}
+
+.actionpanels input::-ms-input-placeholder {
+  color: grey;
+}
+
+.actionpanels input::placeholder {
+  color: grey;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.actionpanels .panel {
+  /* top: 1vw; */
+  position: relative;
+  font-size: 1.3vw;
+  /* text-shadow: 0.05vw 0.05vw 0.025vw black; */
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  background: rgba(20, 20, 20, 0.35);
+  font-family: "AXIS"
+}
+
+.actionpanels .panel:hover {
+  background: #0d0e13;
+  border: 0.15vw solid #464646;
+  box-sizing: border-box;
+
+}
+
+
+
+.actionpanels .panel.throw, .actionpanels .panel.give, .actionpanels .panel.use, .actionpanels input {
+  height: 2.5vw;
+  width: 5.5vw;
+}
+
+.centercontainer {
+  position: absolute;
+  width: 25vw;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  -webkit-transition: ease();
+  transition: ease();
+}
+
+.centercontainer .characterimg {
+  position: absolute;
+  top: 15%;
+  width: 70%;
+  height: 75%;
+  background-image: url(../img/char.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.centercontainer .name {
+  position: absolute;
+  top: 8%;
+  font-size: 1.5vw;
+  color: white;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+  padding: 0.1vw 0.8vw;
+}
+
+.centercontainer .content {
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.centercontainer .content .entry {
+  position: relative;
+  width: 3vw;
+  height: 3vw;
+  background: rgba(60, 60, 60, 0.45);
+  margin: 0.25vw 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+  border: 0.1vw groove rgba(78, 78, 78, 0.45);
+}
+
+.centercontainer .content .entry:hover {
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite;
+}
+
+.centercontainer .content .entry .img {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.centercontainer .content.left {
+  left: 5%;
+}
+
+.centercontainer .content.right {
+  right: 5%;
+}
+
+.inventorycontainer {
+  position: absolute;
+  width: 30vw;
+  height: 40.5vw;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition: ease();
+  transition: ease();
+}
+
+.inventorycontainer.left {
+  left: 5%;
+}
+
+.inventorycontainer.right {
+  right: 5%;
+}
+
+.inventorycontainer .hoverdata {
+  position: absolute;
+  bottom: -7.5vw;
+  width: 100%;
+  height: 6vw;
+  background: rgba(40, 40, 40, 0.35);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inventorycontainer .hoverdata .itemname {
+  position: absolute;
+  left: 24%;
+  top: 8%;
+  font-size: 1.1vw;
+  color: white;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+  font-variant: small-caps;
+}
+
+.inventorycontainer .hoverdata .description {
+  position: absolute;
+  left: 24%;
+  font-size: 0.85vw;
+  color: gainsboro;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+  top: 35%;
+  width: 75%;
+  height: 60%;
+  overflow: auto;
+}
+
+.inventorycontainer .hoverdata .imgentry {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  background: rgba(20, 20, 20, 0.35);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 0.1vw solid #ff7b00;
+}
+
+.inventorycontainer .hoverdata .imgentry .img {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-image: url(../img/preselt_szilva.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.inventorycontainer .header {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inventorycontainer .header .kiloparent {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inventorycontainer .header .kiloparent .text {
+  position: absolute;
+  top: 1.5vw;
+  right: 5%;
+  font-size: 0.9vw;
+  color: white;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+}
+
+.inventorycontainer .header .kiloparent .kilobar {
+  position: absolute;
+  bottom: 15%;
+  width: 90%;
+  height: 0.6vw;
+  /* border-radius: 0.5vw; */
+  border: 0.05vw solid grey;
+}
+
+.inventorycontainer .header .kiloparent .kilobar .inside {
+  height: 100%;
+  /* width: 20%; */
+  background: rgb(111, 183, 22)
+  ;
+  /* border-radius: 0.5vw; */
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition: ease();
+  transition: ease();
+}
+
+.inventorycontainer .header .name {
+  position: absolute;
+  left: 5%;
+  color: white;
+  text-shadow: 0.05vw 0.05vw 0.025vw black;
+  font-size: 1.5vw;
+  font-variant: small-caps;
+}
+
+.inventorycontainer .content {
+  position: relative;
+  width: 30vw;
+  max-height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: auto;
+}
+
+#draggedItem {
+  position: absolute;
+  z-index: 80;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  width: 5vw;
+  height: 4.5vw;
+}
+
+.itementry, #draggedItem {
+  width: 5vw;
+  height: 4.5vw;
+  margin: 0.25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.1vw groove rgba(210, 210, 210, 0.65);
+  -webkit-transition: ease();
+  transition: ease();
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+.itementry:not(#draggedItem), #draggedItem:not(#draggedItem) {
+  position: relative;
+}
+
+.itementry .slot, #draggedItem .slot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 0.9vw;
+  background: rgba(20, 20, 20, 0.75);
+  padding: 0 0.25vw;
+  z-index: 1;
+}
+
+.itementry .name, #draggedItem .name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.55vw;
+  background: rgba(30, 30, 30, 0.85);
+  color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.itementry:hover, #draggedItem:hover {
+  border: 0.1vw groove rgba(255, 255, 255, 0.75);
+}
+
+.itementry .quantity, #draggedItem .quantity {
+  position: absolute;
+  font-size: 0.65vw;
+  color: white;
+  bottom: 15%;
+  right: 2%;
+}
+
+.itementry .qualitybar, #draggedItem .qualitybar {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 4%;
+  background: #141414;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -ms-grid;
+  display: grid;
+  z-index: 2;
+}
+
+.itementry .qualitybar .inside, #draggedItem .qualitybar .inside {
+  background: #ff7b00;
+  height: 95%;
+  width: 100%;
+}
+
+.itementry .img, #draggedItem .img {
+  position: absolute;
+  width: 65%;
+  height: 65%;
+  background-image: url(../img/preselt_szilva.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
+
+
+
+*::-webkit-scrollbar{
+  width:0px;
+}
+
+.name{
+  font-family:"AXIS";
+}

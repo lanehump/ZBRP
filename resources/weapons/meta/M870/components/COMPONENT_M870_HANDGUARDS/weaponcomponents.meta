@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_HANDGUARD_01</Name>
+			<Model>m870_handguard1</Model>
+			<LocName>WCT__HANDGUARD_1</LocName>
+			<LocDesc>WCD_INVALID</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_HANDGUARD_02</Name>
+			<Model>m870_handguard2</Model>
+			<LocName>WCT__HANDGUARD_2</LocName>
+			<LocDesc>WCD_INVALID</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_m870_HANDGUARD_03</Name>
+			<Model>m870_handguard3</Model>
+			<LocName>WCT__HANDGUARD_3</LocName>
+			<LocDesc>WCD_INVALID</LocDesc>
+			<AttachBone>AAPHandguard</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+		</Item>
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

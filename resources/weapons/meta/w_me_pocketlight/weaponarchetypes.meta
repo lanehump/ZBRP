@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>w_me_pocketlight</modelName>
+            <txdName>w_me_pocketlight</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_light</modelName>
+            <txdName>w_me_pocketlight</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_light_uv</modelName>
+            <txdName>w_me_pocketlight</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_light_red</modelName>
+            <txdName>w_me_pocketlight</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_ps</modelName>
+            <txdName>w_me_pocketlight_ps</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_camo_01</modelName>
+            <txdName>w_me_pocketlight_camo_01</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_camo_02</modelName>
+            <txdName>w_me_pocketlight_camo_02</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_camo_03</modelName>
+            <txdName>w_me_pocketlight_camo_03</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_me_pocketlight_camo_04</modelName>
+            <txdName>w_me_pocketlight_camo_04</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>

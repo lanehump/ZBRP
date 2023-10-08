@@ -155,7 +155,7 @@ Config.LoadoutData = {
     '[{"item" : "LOADOUT_HEAVYPISTOL", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2}, {"item" : "LOADOUT_SP45", "quantity" : 1, "slot" : 3}, {"item" : "LOADOUT_VINTAGEPISTOL", "quantity" : 1, "slot" : 4}]',
     -- ["all"] = '[{"item" : "LOADOUT_HEAVYPISTOL", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3},{"item" : "LOADOUT_MCX", "quantity" : 1, "slot" : 4},{"item" : "LOADOUT_AK47", "quantity" : 1, "slot" : 5},{"item" : "LOADOUT_COMBATPISTOL", "quantity" : 1, "slot" : 6}, {"item":"LOADOUT_M60", "quantity" : 1, "slot" : 7} , {"item":"LOADOUT_APPISTOL", "quantity" : 1, "slot" : 8} , {"item":"LOADOUT_M1911", "quantity" : 1, "slot" : 9}]',
     ["smgs"] = 
-    '[{"item" : "LOADOUT_HEAVYPISTOL", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3}]',
+    '[{"item" : "LOADOUT_SMG_MK2", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3}]',
     ["ars"] = 
     '[{"item" : "LOADOUT_762", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_AK47", "quantity" : 1, "slot" : 2}, {"item":"LOUDOUT_M16", "quantity" : 1, "slot" : 3}, {"item":"LOADOUT_HEAVYRIFLE", "quantity" : 1, "slot" : 4}]'
 }
@@ -189,6 +189,7 @@ Config.Weapons = {
     ["WEAPON_SP45"] = "9mm_rounds",
     ["WEAPON_MG"] = "762_rounds",
     ["WEAPON_PISTOL50"] = "9mm_rounds",
+    ["WEAPON_SMG_MK2"] = "9mm_rounds",
     ["WEAPON_MP9A"] = "9mm_rounds",
     ["WEAPON_CARBINERIFLE"] = "556_rounds",
     ["WEAPON_M9"] = "9mm_rounds",
@@ -224,7 +225,8 @@ Config.Loadouts = {
     {name = "LOADOUT_SP45", format = "SP45 Loadout", kit = "sp"},
     {name= "LOADOUT_M16", format = "M16 JAWN", kit = "m16"},
     {name= "LOADOUT_HEAVYRIFLE", format = "Heavyrifle", kit = "heavyrifle"},
-    {name= "LOADOUT_VINTAGEPISTOL", format = "Vintage Pistol", kit = "vintage"}
+    {name= "LOADOUT_VINTAGEPISTOL", format = "Vintage Pistol", kit = "vintage"},
+    {name= "LOADOUT_SMG_MK2", format = "MP5", kit = "mp5"}
 
 }
 

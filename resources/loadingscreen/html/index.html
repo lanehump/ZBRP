@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" media="screen" href="main.css">
+</head>
+
+<body class="bg">
+    <div class="container">
+        <img src="jeva.png">
+    </div>
+    <div id="audio">
+        <audio controls loop autoplay hidden id="musicPlayer">
+            <source src="song.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div class="loadbar">
+        <div class="progressBar"></div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        const musicPlayer = document.getElementById('musicPlayer');
+
+        // Set the preset volume (e.g., 0.5 for 50% volume)
+        musicPlayer.volume = 0.05; // You can change this value as needed
+    </script>
+</body>
+
+</html>

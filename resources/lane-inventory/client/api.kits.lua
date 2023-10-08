@@ -6,7 +6,6 @@ Kits = {
             {item = "oxy", amount = 30, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "50cal_rounds", amount = 150, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["heavypistol"] = {
@@ -15,7 +14,6 @@ Kits = {
             {item = "oxy", amount = 30, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "9mm_rounds", amount = 250, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["sp"] = {
@@ -24,7 +22,6 @@ Kits = {
             {item = "oxy", amount = 30, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "9mm_rounds", amount = 250, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["combatpistol"] = {
@@ -33,7 +30,6 @@ Kits = {
             {item = "oxy", amount = 30, slot = 3},
             {item = "9mm_rounds", amount = 300, slot = 15},
             {item = "radio", amount = 1, slot = 14},
-            {item = "joint", amount = 20, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["pistol50"] = {
@@ -42,7 +38,6 @@ Kits = {
             {item = "oxy", amount = 30, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "9mm_rounds", amount = 250, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["vintage"] = {
@@ -51,7 +46,6 @@ Kits = {
             {item = "oxy", amount = 30, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "9mm_rounds", amount = 250, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
     -- },
@@ -62,7 +56,6 @@ Kits = {
             {item = "oxy", amount = 30, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "556_rounds", amount = 250, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["762"] = {
@@ -71,7 +64,6 @@ Kits = {
             {item = "oxy", amount = 20, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "556_rounds", amount = 300, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["m16"] = {
@@ -80,7 +72,6 @@ Kits = {
             {item = "oxy", amount = 15, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "556_rounds", amount = 300, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
         ["heavyrifle"] = {
@@ -89,18 +80,16 @@ Kits = {
             {item = "oxy", amount = 15, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "556_rounds", amount = 300, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
     -- },
     -- ["smgs"] = {
-        ["mp9"] = {
-            {item = "WEAPON_MP9A", primary = true, amount = 1, slot = 1},
+        ["mp5"] = {
+            {item = "WEAPON_SMG_MK2", primary = true, amount = 1, slot = 1},
             {item = "armour", amount = 5, slot = 2},
             {item = "oxy", amount = 30, slot = 3},
             {item = "radio", amount = 1, slot = 6},
             {item = "9mm_rounds", amount = 250, slot = 15},
-            {item = "joint", amount = 15, slot = 5},
             {item = "repairkit", amount = 1, slot = 10}
         },
     -- },

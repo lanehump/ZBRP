@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Balthazar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+body {
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+
+.hud-wrapper {
+  width: 100%;
+  height: 100%;
+
+  /* background-color: rgba(211, 135, 64, 0.65); */
+  display: none;
+}
+
+.hud-container {
+  position: absolute;
+
+  bottom: 20%;
+  left: 1.4%
+
+  /*background-color: rgba(49, 83, 194, 0.65);*/
+}
+
+.hud-item {
+  position: relative;
+  margin-top:1.5%;
+  width: 28vh;
+  height: 3.0vh !important ;
+
+  /* margin: 0.2vh; */
+
+  background-color: rgba(51, 62, 76, 0.5);
+  margin-top:1.5%;
+}
+
+.hud-icon {
+  position: absolute;
+
+  width: 11%;
+  height: 90% !important;
+
+  align-items: center;
+  text-align: center;
+  left:1.75%;
+  top:2.5%;
+  /* background-color:black; */
+  /* background-color: rgba(0, 100, 0, 0.65); */
+}
+
+
+
+.hud-image{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* top: 50%; */
+  top:12.75%;
+}
+
+
+.hud-bar-container {
+  position: absolute;
+
+  width: 24.1vh;
+  height: 3.0vh;
+
+  left: 13.9%;
+
+  /* background-color: rgba(47, 170, 96, 0.5); */
+}
+
+
+.hud-item-bar-main > p {
+  position: relative;
+  left: 3%;
+  top:17%;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 1.4vmin;
+  color: #E5E5E5;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.hud-item-bar-main {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+
+.health{
+  background-color: rgba(74, 238, 20, 0.45);
+}
+
+.armor{
+  background-color: rgba(48, 135, 250, 0.45);
+}

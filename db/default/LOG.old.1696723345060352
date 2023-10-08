@@ -1,0 +1,285 @@
+2023/10/07-19:55:23.266326 ac48 RocksDB version: 8.3.0
+2023/10/07-19:55:23.266402 ac48 DB SUMMARY
+2023/10/07-19:55:23.266418 ac48 DB Session ID:  WF07PSGJ593MPAG8VDVY
+2023/10/07-19:55:23.267285 ac48 CURRENT file:  CURRENT
+2023/10/07-19:55:23.267306 ac48 IDENTITY file:  IDENTITY
+2023/10/07-19:55:23.267361 ac48 MANIFEST file:  MANIFEST-000378 size: 301 Bytes
+2023/10/07-19:55:23.267373 ac48 SST files in E:\txData\ZBRP\db\default dir, Total Num: 1, files: 000012.sst 
+2023/10/07-19:55:23.267383 ac48 Write Ahead Log file in E:\txData\ZBRP\db\default: 000377.log size: 0 ; 
+2023/10/07-19:55:23.267395 ac48                         Options.error_if_exists: 0
+2023/10/07-19:55:23.267404 ac48                       Options.create_if_missing: 1
+2023/10/07-19:55:23.267412 ac48                         Options.paranoid_checks: 1
+2023/10/07-19:55:23.267629 ac48             Options.flush_verify_memtable_count: 1
+2023/10/07-19:55:23.267637 ac48                               Options.track_and_verify_wals_in_manifest: 0
+2023/10/07-19:55:23.267640 ac48        Options.verify_sst_unique_id_in_manifest: 1
+2023/10/07-19:55:23.267644 ac48                                     Options.env: 000001F55CB7B2E0
+2023/10/07-19:55:23.267648 ac48                                      Options.fs: WinFS
+2023/10/07-19:55:23.267652 ac48                                Options.info_log: 000001F548DAAA30
+2023/10/07-19:55:23.267655 ac48                Options.max_file_opening_threads: 16
+2023/10/07-19:55:23.267659 ac48                              Options.statistics: 0000000000000000
+2023/10/07-19:55:23.267662 ac48                               Options.use_fsync: 0
+2023/10/07-19:55:23.267666 ac48                       Options.max_log_file_size: 0
+2023/10/07-19:55:23.267669 ac48                  Options.max_manifest_file_size: 1073741824
+2023/10/07-19:55:23.267673 ac48                   Options.log_file_time_to_roll: 0
+2023/10/07-19:55:23.267677 ac48                       Options.keep_log_file_num: 10
+2023/10/07-19:55:23.267680 ac48                    Options.recycle_log_file_num: 0
+2023/10/07-19:55:23.267684 ac48                         Options.allow_fallocate: 1
+2023/10/07-19:55:23.267687 ac48                        Options.allow_mmap_reads: 0
+2023/10/07-19:55:23.267690 ac48                       Options.allow_mmap_writes: 0
+2023/10/07-19:55:23.267694 ac48                        Options.use_direct_reads: 0
+2023/10/07-19:55:23.267697 ac48                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/10/07-19:55:23.267701 ac48          Options.create_missing_column_families: 0
+2023/10/07-19:55:23.267704 ac48                              Options.db_log_dir: 
+2023/10/07-19:55:23.267708 ac48                                 Options.wal_dir: 
+2023/10/07-19:55:23.267711 ac48                Options.table_cache_numshardbits: 6
+2023/10/07-19:55:23.267715 ac48                         Options.WAL_ttl_seconds: 0
+2023/10/07-19:55:23.267718 ac48                       Options.WAL_size_limit_MB: 0
+2023/10/07-19:55:23.267721 ac48                        Options.max_write_batch_group_size_bytes: 1048576
+2023/10/07-19:55:23.267725 ac48             Options.manifest_preallocation_size: 4194304
+2023/10/07-19:55:23.267728 ac48                     Options.is_fd_close_on_exec: 1
+2023/10/07-19:55:23.267732 ac48                   Options.advise_random_on_open: 1
+2023/10/07-19:55:23.267735 ac48                    Options.db_write_buffer_size: 0
+2023/10/07-19:55:23.267739 ac48                    Options.write_buffer_manager: 000001F55CB7AB60
+2023/10/07-19:55:23.267742 ac48         Options.access_hint_on_compaction_start: 1
+2023/10/07-19:55:23.267745 ac48           Options.random_access_max_buffer_size: 1048576
+2023/10/07-19:55:23.267749 ac48                      Options.use_adaptive_mutex: 0
+2023/10/07-19:55:23.267752 ac48                            Options.rate_limiter: 0000000000000000
+2023/10/07-19:55:23.267756 ac48     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/10/07-19:55:23.267760 ac48                       Options.wal_recovery_mode: 2
+2023/10/07-19:55:23.267763 ac48                  Options.enable_thread_tracking: 0
+2023/10/07-19:55:23.267795 ac48                  Options.enable_pipelined_write: 0
+2023/10/07-19:55:23.267801 ac48                  Options.unordered_write: 0
+2023/10/07-19:55:23.267805 ac48         Options.allow_concurrent_memtable_write: 1
+2023/10/07-19:55:23.267808 ac48      Options.enable_write_thread_adaptive_yield: 1
+2023/10/07-19:55:23.267811 ac48             Options.write_thread_max_yield_usec: 100
+2023/10/07-19:55:23.267815 ac48            Options.write_thread_slow_yield_usec: 3
+2023/10/07-19:55:23.267818 ac48                               Options.row_cache: None
+2023/10/07-19:55:23.267822 ac48                              Options.wal_filter: None
+2023/10/07-19:55:23.267825 ac48             Options.avoid_flush_during_recovery: 0
+2023/10/07-19:55:23.267829 ac48             Options.allow_ingest_behind: 0
+2023/10/07-19:55:23.267832 ac48             Options.two_write_queues: 0
+2023/10/07-19:55:23.267836 ac48             Options.manual_wal_flush: 0
+2023/10/07-19:55:23.267839 ac48             Options.wal_compression: 0
+2023/10/07-19:55:23.267842 ac48             Options.atomic_flush: 0
+2023/10/07-19:55:23.267845 ac48             Options.avoid_unnecessary_blocking_io: 0
+2023/10/07-19:55:23.267849 ac48                 Options.persist_stats_to_disk: 0
+2023/10/07-19:55:23.267852 ac48                 Options.write_dbid_to_manifest: 0
+2023/10/07-19:55:23.267856 ac48                 Options.log_readahead_size: 0
+2023/10/07-19:55:23.267859 ac48                 Options.file_checksum_gen_factory: Unknown
+2023/10/07-19:55:23.267863 ac48                 Options.best_efforts_recovery: 0
+2023/10/07-19:55:23.267866 ac48                Options.max_bgerror_resume_count: 2147483647
+2023/10/07-19:55:23.267870 ac48            Options.bgerror_resume_retry_interval: 1000000
+2023/10/07-19:55:23.267873 ac48             Options.allow_data_in_errors: 0
+2023/10/07-19:55:23.267876 ac48             Options.db_host_id: __hostname__
+2023/10/07-19:55:23.267880 ac48             Options.enforce_single_del_contracts: true
+2023/10/07-19:55:23.267884 ac48             Options.max_background_jobs: 2
+2023/10/07-19:55:23.267887 ac48             Options.max_background_compactions: -1
+2023/10/07-19:55:23.267891 ac48             Options.max_subcompactions: 1
+2023/10/07-19:55:23.267894 ac48             Options.avoid_flush_during_shutdown: 0
+2023/10/07-19:55:23.267897 ac48           Options.writable_file_max_buffer_size: 1048576
+2023/10/07-19:55:23.267901 ac48             Options.delayed_write_rate : 16777216
+2023/10/07-19:55:23.267904 ac48             Options.max_total_wal_size: 0
+2023/10/07-19:55:23.267908 ac48             Options.delete_obsolete_files_period_micros: 21600000000
+2023/10/07-19:55:23.267911 ac48                   Options.stats_dump_period_sec: 600
+2023/10/07-19:55:23.267915 ac48                 Options.stats_persist_period_sec: 600
+2023/10/07-19:55:23.267918 ac48                 Options.stats_history_buffer_size: 1048576
+2023/10/07-19:55:23.267921 ac48                          Options.max_open_files: -1
+2023/10/07-19:55:23.267925 ac48                          Options.bytes_per_sync: 0
+2023/10/07-19:55:23.267928 ac48                      Options.wal_bytes_per_sync: 0
+2023/10/07-19:55:23.267932 ac48                   Options.strict_bytes_per_sync: 0
+2023/10/07-19:55:23.267935 ac48       Options.compaction_readahead_size: 0
+2023/10/07-19:55:23.267938 ac48                  Options.max_background_flushes: -1
+2023/10/07-19:55:23.267942 ac48 Compression algorithms supported:
+2023/10/07-19:55:23.267949 ac48 	kZSTD supported: 0
+2023/10/07-19:55:23.267953 ac48 	kSnappyCompression supported: 0
+2023/10/07-19:55:23.267956 ac48 	kBZip2Compression supported: 0
+2023/10/07-19:55:23.267960 ac48 	kZlibCompression supported: 1
+2023/10/07-19:55:23.267963 ac48 	kLZ4Compression supported: 1
+2023/10/07-19:55:23.267967 ac48 	kXpressCompression supported: 0
+2023/10/07-19:55:23.267970 ac48 	kLZ4HCCompression supported: 1
+2023/10/07-19:55:23.267974 ac48 	kZSTDNotFinalCompression supported: 0
+2023/10/07-19:55:23.267980 ac48 Fast CRC32 supported: Not supported on x86
+2023/10/07-19:55:23.268123 ac48 DMutex implementation: std::mutex
+2023/10/07-19:55:23.269183 ac48 [db\version_set.cc:5791] Recovering from manifest file: E:\txData\ZBRP\db\default/MANIFEST-000378
+2023/10/07-19:55:23.269591 ac48 [db\column_family.cc:621] --------------- Options for column family [default]:
+2023/10/07-19:55:23.269606 ac48               Options.comparator: leveldb.BytewiseComparator
+2023/10/07-19:55:23.269611 ac48           Options.merge_operator: None
+2023/10/07-19:55:23.269615 ac48        Options.compaction_filter: None
+2023/10/07-19:55:23.269619 ac48        Options.compaction_filter_factory: None
+2023/10/07-19:55:23.269622 ac48  Options.sst_partitioner_factory: None
+2023/10/07-19:55:23.269626 ac48         Options.memtable_factory: SkipListFactory
+2023/10/07-19:55:23.269629 ac48            Options.table_factory: BlockBasedTable
+2023/10/07-19:55:23.269679 ac48            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000001F55CC2E5F0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 000001F55CB7B6B0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2023/10/07-19:55:23.269684 ac48        Options.write_buffer_size: 67108864
+2023/10/07-19:55:23.269687 ac48  Options.max_write_buffer_number: 2
+2023/10/07-19:55:23.269691 ac48          Options.compression: LZ4
+2023/10/07-19:55:23.269695 ac48                  Options.bottommost_compression: Disabled
+2023/10/07-19:55:23.269698 ac48       Options.prefix_extractor: nullptr
+2023/10/07-19:55:23.269702 ac48   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2023/10/07-19:55:23.269705 ac48             Options.num_levels: 7
+2023/10/07-19:55:23.269709 ac48        Options.min_write_buffer_number_to_merge: 1
+2023/10/07-19:55:23.269712 ac48     Options.max_write_buffer_number_to_maintain: 0
+2023/10/07-19:55:23.269715 ac48     Options.max_write_buffer_size_to_maintain: 0
+2023/10/07-19:55:23.269719 ac48            Options.bottommost_compression_opts.window_bits: -14
+2023/10/07-19:55:23.269722 ac48                  Options.bottommost_compression_opts.level: 32767
+2023/10/07-19:55:23.269726 ac48               Options.bottommost_compression_opts.strategy: 0
+2023/10/07-19:55:23.269729 ac48         Options.bottommost_compression_opts.max_dict_bytes: 0
+2023/10/07-19:55:23.269734 ac48         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2023/10/07-19:55:23.269738 ac48         Options.bottommost_compression_opts.parallel_threads: 1
+2023/10/07-19:55:23.269742 ac48                  Options.bottommost_compression_opts.enabled: false
+2023/10/07-19:55:23.269745 ac48         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2023/10/07-19:55:23.269791 ac48         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2023/10/07-19:55:23.269797 ac48            Options.compression_opts.window_bits: -14
+2023/10/07-19:55:23.269801 ac48                  Options.compression_opts.level: 32767
+2023/10/07-19:55:23.269805 ac48               Options.compression_opts.strategy: 0
+2023/10/07-19:55:23.269808 ac48         Options.compression_opts.max_dict_bytes: 0
+2023/10/07-19:55:23.269854 ac48         Options.compression_opts.zstd_max_train_bytes: 0
+2023/10/07-19:55:23.269860 ac48         Options.compression_opts.use_zstd_dict_trainer: true
+2023/10/07-19:55:23.269864 ac48         Options.compression_opts.parallel_threads: 1
+2023/10/07-19:55:23.269868 ac48                  Options.compression_opts.enabled: false
+2023/10/07-19:55:23.269872 ac48         Options.compression_opts.max_dict_buffer_bytes: 0
+2023/10/07-19:55:23.269876 ac48      Options.level0_file_num_compaction_trigger: 4
+2023/10/07-19:55:23.269905 ac48          Options.level0_slowdown_writes_trigger: 20
+2023/10/07-19:55:23.269910 ac48              Options.level0_stop_writes_trigger: 36
+2023/10/07-19:55:23.269913 ac48                   Options.target_file_size_base: 67108864
+2023/10/07-19:55:23.269917 ac48             Options.target_file_size_multiplier: 1
+2023/10/07-19:55:23.269920 ac48                Options.max_bytes_for_level_base: 268435456
+2023/10/07-19:55:23.269924 ac48 Options.level_compaction_dynamic_level_bytes: 0
+2023/10/07-19:55:23.269927 ac48          Options.max_bytes_for_level_multiplier: 10.000000
+2023/10/07-19:55:23.269932 ac48 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2023/10/07-19:55:23.269935 ac48 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2023/10/07-19:55:23.269939 ac48 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2023/10/07-19:55:23.269942 ac48 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2023/10/07-19:55:23.269946 ac48 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2023/10/07-19:55:23.269950 ac48 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2023/10/07-19:55:23.269953 ac48 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2023/10/07-19:55:23.269957 ac48       Options.max_sequential_skip_in_iterations: 8
+2023/10/07-19:55:23.269960 ac48                    Options.max_compaction_bytes: 1677721600
+2023/10/07-19:55:23.269964 ac48   Options.ignore_max_compaction_bytes_for_input: true
+2023/10/07-19:55:23.269967 ac48                        Options.arena_block_size: 1048576
+2023/10/07-19:55:23.269971 ac48   Options.soft_pending_compaction_bytes_limit: 68719476736
+2023/10/07-19:55:23.269974 ac48   Options.hard_pending_compaction_bytes_limit: 274877906944
+2023/10/07-19:55:23.269978 ac48                Options.disable_auto_compactions: 0
+2023/10/07-19:55:23.269984 ac48                        Options.compaction_style: kCompactionStyleLevel
+2023/10/07-19:55:23.269989 ac48                          Options.compaction_pri: kMinOverlappingRatio
+2023/10/07-19:55:23.269992 ac48 Options.compaction_options_universal.size_ratio: 1
+2023/10/07-19:55:23.269996 ac48 Options.compaction_options_universal.min_merge_width: 2
+2023/10/07-19:55:23.269999 ac48 Options.compaction_options_universal.max_merge_width: 4294967295
+2023/10/07-19:55:23.270003 ac48 Options.compaction_options_universal.max_size_amplification_percent: 200
+2023/10/07-19:55:23.270006 ac48 Options.compaction_options_universal.compression_size_percent: -1
+2023/10/07-19:55:23.270011 ac48 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2023/10/07-19:55:23.270014 ac48 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2023/10/07-19:55:23.270018 ac48 Options.compaction_options_fifo.allow_compaction: 0
+2023/10/07-19:55:23.270024 ac48                   Options.table_properties_collectors: 
+2023/10/07-19:55:23.270028 ac48                   Options.inplace_update_support: 0
+2023/10/07-19:55:23.270031 ac48                 Options.inplace_update_num_locks: 10000
+2023/10/07-19:55:23.270035 ac48               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2023/10/07-19:55:23.270039 ac48               Options.memtable_whole_key_filtering: 0
+2023/10/07-19:55:23.270042 ac48   Options.memtable_huge_page_size: 0
+2023/10/07-19:55:23.270046 ac48                           Options.bloom_locality: 0
+2023/10/07-19:55:23.270049 ac48                    Options.max_successive_merges: 0
+2023/10/07-19:55:23.270052 ac48                Options.optimize_filters_for_hits: 0
+2023/10/07-19:55:23.270119 ac48                Options.paranoid_file_checks: 0
+2023/10/07-19:55:23.270124 ac48                Options.force_consistency_checks: 1
+2023/10/07-19:55:23.270128 ac48                Options.report_bg_io_stats: 0
+2023/10/07-19:55:23.270131 ac48                               Options.ttl: 2592000
+2023/10/07-19:55:23.270134 ac48          Options.periodic_compaction_seconds: 0
+2023/10/07-19:55:23.270138 ac48  Options.preclude_last_level_data_seconds: 0
+2023/10/07-19:55:23.270141 ac48    Options.preserve_internal_time_seconds: 0
+2023/10/07-19:55:23.270145 ac48                       Options.enable_blob_files: false
+2023/10/07-19:55:23.270149 ac48                           Options.min_blob_size: 0
+2023/10/07-19:55:23.270152 ac48                          Options.blob_file_size: 268435456
+2023/10/07-19:55:23.270156 ac48                   Options.blob_compression_type: NoCompression
+2023/10/07-19:55:23.270159 ac48          Options.enable_blob_garbage_collection: false
+2023/10/07-19:55:23.270162 ac48      Options.blob_garbage_collection_age_cutoff: 0.250000
+2023/10/07-19:55:23.270166 ac48 Options.blob_garbage_collection_force_threshold: 1.000000
+2023/10/07-19:55:23.270170 ac48          Options.blob_compaction_readahead_size: 0
+2023/10/07-19:55:23.270174 ac48                Options.blob_file_starting_level: 0
+2023/10/07-19:55:23.270177 ac48 Options.experimental_mempurge_threshold: 0.000000
+2023/10/07-19:55:23.377816 ac48 [db\version_set.cc:5842] Recovered from manifest file:E:\txData\ZBRP\db\default/MANIFEST-000378 succeeded,manifest_file_number is 378, next_file_number is 380, last_sequence is 13, log_number is 374,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 374
+2023/10/07-19:55:23.377840 ac48 [db\version_set.cc:5851] Column family [default] (ID 0), log number is 374
+2023/10/07-19:55:23.378274 ac48 [db\db_impl\db_impl_open.cc:636] DB ID: 2d3b0e19-628b-11ee-a55f-2cf05dd23f3a
+2023/10/07-19:55:23.380362 ac48 EVENT_LOG_v1 {"time_micros": 1696722923380351, "job": 1, "event": "recovery_started", "wal_files": [377]}
+2023/10/07-19:55:23.380383 ac48 [db\db_impl\db_impl_open.cc:1131] Recovering log #377 mode 2
+2023/10/07-19:55:23.423181 ac48 EVENT_LOG_v1 {"time_micros": 1696722923423168, "job": 1, "event": "recovery_finished"}
+2023/10/07-19:55:23.423933 ac48 [db\version_set.cc:5304] Creating manifest 382
+2023/10/07-19:55:23.437089 ac48 [file\delete_scheduler.cc:77] Deleted file E:\txData\ZBRP\db\default/000377.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2023/10/07-19:55:23.437106 ac48 [db\db_impl\db_impl_files.cc:654] [JOB 2] Delete info log file E:\txData\ZBRP\db\default//LOG.old.1696679268300266
+2023/10/07-19:55:23.437396 ac48 [db\db_impl\db_impl_open.cc:2085] SstFileManager instance 000001F55CB5BB60
+2023/10/07-19:55:23.438068 ac48 DB pointer 000001F55CEA3080
+2023/10/07-19:55:23.494232 aa28 [db\db_impl\db_impl.cc:1091] ------- DUMPING STATS -------
+2023/10/07-19:55:23.494261 aa28 [db\db_impl\db_impl.cc:1092] 
+** DB Stats **
+Uptime(secs): 0.2 total, 0.2 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+Write Stall (count): write-buffer-manager-limit-stops: 0
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.36 KB   0.2      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Sum      1/0    1.36 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 0.2 total, 0.2 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Write Stall (count): cf-l0-file-count-limit-delays-with-ongoing-compaction: 0, cf-l0-file-count-limit-stops-with-ongoing-compaction: 0, l0-file-count-limit-delays: 0, l0-file-count-limit-stops: 0, memtable-limit-delays: 0, memtable-limit-stops: 0, pending-compaction-bytes-delays: 0, pending-compaction-bytes-stops: 0, total-delays: 0, total-stops: 0
+Block cache LRUCache@000001F55CB7B6B0#38432 capacity: 32.00 MB seed: 1695606337 usage: 0.08 KB table_size: 1024 occupancy: 1 collections: 1 last_copies: 0 last_secs: 6.5e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [default] **

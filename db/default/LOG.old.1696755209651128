@@ -1,0 +1,105 @@
+2023/10/08-04:53:29.639142 84a4 RocksDB version: 8.3.0
+2023/10/08-04:53:29.639286 84a4 DB SUMMARY
+2023/10/08-04:53:29.639321 84a4 DB Session ID:  NHMAUQQXEFMFXFNZ56M3
+2023/10/08-04:53:29.640701 84a4 CURRENT file:  CURRENT
+2023/10/08-04:53:29.640752 84a4 IDENTITY file:  IDENTITY
+2023/10/08-04:53:29.640910 84a4 MANIFEST file:  MANIFEST-000402 size: 301 Bytes
+2023/10/08-04:53:29.640941 84a4 SST files in C:\txData\ZBRP\db\default dir, Total Num: 1, files: 000012.sst 
+2023/10/08-04:53:29.640959 84a4 Write Ahead Log file in C:\txData\ZBRP\db\default: 000401.log size: 0 ; 
+2023/10/08-04:53:29.640983 84a4                         Options.error_if_exists: 0
+2023/10/08-04:53:29.641003 84a4                       Options.create_if_missing: 1
+2023/10/08-04:53:29.641017 84a4                         Options.paranoid_checks: 1
+2023/10/08-04:53:29.641217 84a4             Options.flush_verify_memtable_count: 1
+2023/10/08-04:53:29.641232 84a4                               Options.track_and_verify_wals_in_manifest: 0
+2023/10/08-04:53:29.641238 84a4        Options.verify_sst_unique_id_in_manifest: 1
+2023/10/08-04:53:29.641244 84a4                                     Options.env: 0000018FBB396A40
+2023/10/08-04:53:29.641250 84a4                                      Options.fs: WinFS
+2023/10/08-04:53:29.641256 84a4                                Options.info_log: 0000018FBB36F570
+2023/10/08-04:53:29.641262 84a4                Options.max_file_opening_threads: 16
+2023/10/08-04:53:29.641268 84a4                              Options.statistics: 0000000000000000
+2023/10/08-04:53:29.641274 84a4                               Options.use_fsync: 0
+2023/10/08-04:53:29.641279 84a4                       Options.max_log_file_size: 0
+2023/10/08-04:53:29.641285 84a4                  Options.max_manifest_file_size: 1073741824
+2023/10/08-04:53:29.641291 84a4                   Options.log_file_time_to_roll: 0
+2023/10/08-04:53:29.641296 84a4                       Options.keep_log_file_num: 10
+2023/10/08-04:53:29.641302 84a4                    Options.recycle_log_file_num: 0
+2023/10/08-04:53:29.641307 84a4                         Options.allow_fallocate: 1
+2023/10/08-04:53:29.641313 84a4                        Options.allow_mmap_reads: 0
+2023/10/08-04:53:29.641318 84a4                       Options.allow_mmap_writes: 0
+2023/10/08-04:53:29.641324 84a4                        Options.use_direct_reads: 0
+2023/10/08-04:53:29.641330 84a4                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/10/08-04:53:29.641335 84a4          Options.create_missing_column_families: 0
+2023/10/08-04:53:29.641341 84a4                              Options.db_log_dir: 
+2023/10/08-04:53:29.641347 84a4                                 Options.wal_dir: 
+2023/10/08-04:53:29.641352 84a4                Options.table_cache_numshardbits: 6
+2023/10/08-04:53:29.641358 84a4                         Options.WAL_ttl_seconds: 0
+2023/10/08-04:53:29.641364 84a4                       Options.WAL_size_limit_MB: 0
+2023/10/08-04:53:29.641369 84a4                        Options.max_write_batch_group_size_bytes: 1048576
+2023/10/08-04:53:29.641375 84a4             Options.manifest_preallocation_size: 4194304
+2023/10/08-04:53:29.641380 84a4                     Options.is_fd_close_on_exec: 1
+2023/10/08-04:53:29.641386 84a4                   Options.advise_random_on_open: 1
+2023/10/08-04:53:29.641392 84a4                    Options.db_write_buffer_size: 0
+2023/10/08-04:53:29.641397 84a4                    Options.write_buffer_manager: 0000018FBB395D20
+2023/10/08-04:53:29.641403 84a4         Options.access_hint_on_compaction_start: 1
+2023/10/08-04:53:29.641409 84a4           Options.random_access_max_buffer_size: 1048576
+2023/10/08-04:53:29.641414 84a4                      Options.use_adaptive_mutex: 0
+2023/10/08-04:53:29.641420 84a4                            Options.rate_limiter: 0000000000000000
+2023/10/08-04:53:29.641426 84a4     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/10/08-04:53:29.641431 84a4                       Options.wal_recovery_mode: 2
+2023/10/08-04:53:29.641437 84a4                  Options.enable_thread_tracking: 0
+2023/10/08-04:53:29.641479 84a4                  Options.enable_pipelined_write: 0
+2023/10/08-04:53:29.641490 84a4                  Options.unordered_write: 0
+2023/10/08-04:53:29.641496 84a4         Options.allow_concurrent_memtable_write: 1
+2023/10/08-04:53:29.641501 84a4      Options.enable_write_thread_adaptive_yield: 1
+2023/10/08-04:53:29.641507 84a4             Options.write_thread_max_yield_usec: 100
+2023/10/08-04:53:29.641513 84a4            Options.write_thread_slow_yield_usec: 3
+2023/10/08-04:53:29.641518 84a4                               Options.row_cache: None
+2023/10/08-04:53:29.641523 84a4                              Options.wal_filter: None
+2023/10/08-04:53:29.641529 84a4             Options.avoid_flush_during_recovery: 0
+2023/10/08-04:53:29.641534 84a4             Options.allow_ingest_behind: 0
+2023/10/08-04:53:29.641540 84a4             Options.two_write_queues: 0
+2023/10/08-04:53:29.641545 84a4             Options.manual_wal_flush: 0
+2023/10/08-04:53:29.641550 84a4             Options.wal_compression: 0
+2023/10/08-04:53:29.641556 84a4             Options.atomic_flush: 0
+2023/10/08-04:53:29.641561 84a4             Options.avoid_unnecessary_blocking_io: 0
+2023/10/08-04:53:29.641566 84a4                 Options.persist_stats_to_disk: 0
+2023/10/08-04:53:29.641572 84a4                 Options.write_dbid_to_manifest: 0
+2023/10/08-04:53:29.641577 84a4                 Options.log_readahead_size: 0
+2023/10/08-04:53:29.641583 84a4                 Options.file_checksum_gen_factory: Unknown
+2023/10/08-04:53:29.641588 84a4                 Options.best_efforts_recovery: 0
+2023/10/08-04:53:29.641594 84a4                Options.max_bgerror_resume_count: 2147483647
+2023/10/08-04:53:29.641599 84a4            Options.bgerror_resume_retry_interval: 1000000
+2023/10/08-04:53:29.641605 84a4             Options.allow_data_in_errors: 0
+2023/10/08-04:53:29.641610 84a4             Options.db_host_id: __hostname__
+2023/10/08-04:53:29.641616 84a4             Options.enforce_single_del_contracts: true
+2023/10/08-04:53:29.641637 84a4             Options.max_background_jobs: 2
+2023/10/08-04:53:29.641646 84a4             Options.max_background_compactions: -1
+2023/10/08-04:53:29.641651 84a4             Options.max_subcompactions: 1
+2023/10/08-04:53:29.641656 84a4             Options.avoid_flush_during_shutdown: 0
+2023/10/08-04:53:29.641661 84a4           Options.writable_file_max_buffer_size: 1048576
+2023/10/08-04:53:29.641666 84a4             Options.delayed_write_rate : 16777216
+2023/10/08-04:53:29.641671 84a4             Options.max_total_wal_size: 0
+2023/10/08-04:53:29.641677 84a4             Options.delete_obsolete_files_period_micros: 21600000000
+2023/10/08-04:53:29.641682 84a4                   Options.stats_dump_period_sec: 600
+2023/10/08-04:53:29.641687 84a4                 Options.stats_persist_period_sec: 600
+2023/10/08-04:53:29.641692 84a4                 Options.stats_history_buffer_size: 1048576
+2023/10/08-04:53:29.641697 84a4                          Options.max_open_files: -1
+2023/10/08-04:53:29.641703 84a4                          Options.bytes_per_sync: 0
+2023/10/08-04:53:29.641708 84a4                      Options.wal_bytes_per_sync: 0
+2023/10/08-04:53:29.641713 84a4                   Options.strict_bytes_per_sync: 0
+2023/10/08-04:53:29.641718 84a4       Options.compaction_readahead_size: 0
+2023/10/08-04:53:29.641723 84a4                  Options.max_background_flushes: -1
+2023/10/08-04:53:29.641729 84a4 Compression algorithms supported:
+2023/10/08-04:53:29.641745 84a4 	kZSTD supported: 0
+2023/10/08-04:53:29.641751 84a4 	kSnappyCompression supported: 0
+2023/10/08-04:53:29.641756 84a4 	kBZip2Compression supported: 0
+2023/10/08-04:53:29.641762 84a4 	kZlibCompression supported: 1
+2023/10/08-04:53:29.641768 84a4 	kLZ4Compression supported: 1
+2023/10/08-04:53:29.641773 84a4 	kXpressCompression supported: 0
+2023/10/08-04:53:29.641778 84a4 	kLZ4HCCompression supported: 1
+2023/10/08-04:53:29.641783 84a4 	kZSTDNotFinalCompression supported: 0
+2023/10/08-04:53:29.641794 84a4 Fast CRC32 supported: Not supported on x86
+2023/10/08-04:53:29.641836 84a4 DMutex implementation: std::mutex
+2023/10/08-04:53:29.649231 84a4 [WARN] [db\db_impl\db_impl_open.cc:2183] DB::Open() failed: Corruption: CURRENT file corrupted
+2023/10/08-04:53:29.649517 84a4 [db\db_impl\db_impl.cc:496] Shutdown: canceling all background work
+2023/10/08-04:53:29.649695 84a4 [db\db_impl\db_impl.cc:698] Shutdown complete

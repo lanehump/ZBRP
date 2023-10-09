@@ -1,17 +1,20 @@
-Components = {
-    ["WEAPON_CARBINERIFLE"] = {
-        {comp = "COMPONENT_AT_AR_FLSH"},
-        {comp = "COMPONENT_AT_SCOPE_MEDIUM"},
-        {comp = "COMPONENT_CARBINERIFLE_CLIP_02"}
+local suppressor = false
+NoSuppressorComponents = {
+
+}
+
+SuppressorComponents = {
+    ["WEAPON_ASSAULTRIFLE"] = {
+        {comp = "COMPONENT_AT_AR_SUPP_02"}
     },
-    ["WEAPON_APPISTOL"] = {
-        {comp = "COMPONENT_APPISTOL_CLIP_02"},
+    ["WEAPON_HEAVYRIFLE"] = {
+        {comp = "COMPONENT_AT_AR_SUPP"},
     },
-    ["WEAPON_COMBATMG"] = {
-        {comp = "COMPONENT_AT_AR_AFGRIP"},
-        {comp = "COMPONENT_AT_SCOPE_MEDIUM"},
+    ["WEAPON_TACTICALRIFLE"] = {
+        {comp = "COMPONENT_AT_AR_SUPP_02"}
     },
     ["WEAPON_CARBINERIFLE_MK2"] = {
+        {comp = "COMPONENT_AT_AR_SUPP"}
     },
     ["WEAPON_SPECIALCARBINE_MK2"] = {
         {comp = "COMPONENT_SPECIALCARBINE_MK2_CLIP_02"},
@@ -31,17 +34,31 @@ Components = {
         {comp = "COMPONENT_AT_AR_AFGRIP"},
         {comp = "COMPONENT_AT_AR_FLSH"}
     }
-
 }
 
 
 
 function ApplyWeaponComponents(primary)
     print("COMP: " .. primary)
-    if Components[primary] == nil then return end 
-    for k,v in pairs(Components[primary]) do 
-        print(v.comp)
-        GiveWeaponComponentToPed(PlayerPedId(), GetHashKey(primary), GetHashKey(v.comp))
+    if suppressor == false then
+        if NoSuppressorComponents[primary] == nil then return end 
+            for k,v in pairs(NoSuppressorComponents[primary]) do 
+                print(v.comp)
+                GiveWeaponComponentToPed(GetPlayerPed(-1), GetHashKey(primary), GetHashKey(v.comp))
+        end
+    else 
+        if SuppressorComponents[primary] == nil then return end 
+            for k,v in pairs(SuppressorComponents[primary]) do 
+                print(v.comp)
+                GiveWeaponComponentToPed(GetPlayerPed(-1), GetHashKey(primary), GetHashKey(v.comp))
+            end
+        end
     end
-end
 
+RegisterCommand("silencer", function(source, args, rawCommand)
+    if suppressor == false then
+        suppressor = true
+    else
+        suppressor = false
+    end
+end)

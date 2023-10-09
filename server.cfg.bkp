@@ -45,6 +45,7 @@ ensure eup-streams
 ensure loadingscreen
 ensure carcommand
 ensure vClear
+ensure safezone
 
 
 

@@ -1,18 +1,22 @@
 local WeaponRecoil = {
-
+--m16
 	[`weapon_tacticalrifle`] = {
 		vertical = .31,
 		horizontal = .15
 	},
+--mk18
 	[`weapon_carbinerifle`] = {
 		vertical = .15,
 	},
+--doesnt matter shitter gun
 	[`weapon_specialcarbine`] = {
 		vertical = .11,
 	},
+-- op as fuck
 	[`weapon_heavyrifle`] = {
 		vertical = .19,
 	},
+--berretta
 	[`weapon_pistol`] = {
 		vertical = .21,
 	},
@@ -38,21 +42,26 @@ local WeaponRecoil = {
 	[`weapon_m60`] = {
 		vertical = .15,
 	},
+--ak
 	[`weapon_assaultrifle`] = {
 		vertical = .23,
 	},
+--mpx
 	[`weapon_combatpdw`] = {
 		vertical = .11,
 	},
+--magpull
 	[`weapon_assaultsmg`] = {
 		vertical = .18,
 	},
+--mp5
 	[`weapon_smg_mk2`] = {
 		vertical = .26,
 	},
 	[`weapon_microsmg`] = {
 		vertical = .48,
 	},
+--762
 	[`weapon_carbinerifle_mk2`] = {
 		vertical = .30,
 		horizontal = .14
@@ -70,7 +79,7 @@ local WeaponRecoil = {
 
 local GroupRecoil = {
 	[416676503] = {
-		vertical = .20,
+		vertical = .2,
 	}, -- Handgun
 	[-957766203] = {
 		vertical = .17,

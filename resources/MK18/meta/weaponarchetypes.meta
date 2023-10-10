@@ -9,12 +9,6 @@
 			<lodDist value="300"/>
 		</Item>
 		<Item>
-			<modelName>w_at_ar_supp</modelName>
-			<txdName>w_at_ar_supp</txdName>
-			<ptfxAssetName>NULL</ptfxAssetName>
-			<lodDist value="300"/>
-		</Item>
-		<Item>
 			<modelName>w_at_ar_afgrip</modelName>
 			<txdName>w_at_ar_afgrip</txdName>
 			<ptfxAssetName>NULL</ptfxAssetName>

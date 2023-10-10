@@ -11,7 +11,8 @@ RegisterCommand('car', function(source, args, rawCommand)
         "issi7",
         "coquette",
         "coquette4",
-
+        "paragon",
+        "jester"
     }
     local allowed = false
     local x, y, z = table.unpack(GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 0, 0.5))

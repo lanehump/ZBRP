@@ -155,9 +155,9 @@ Config.LoadoutData = {
     '[{"item" : "LOADOUT_HEAVYPISTOL", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2}, {"item" : "LOADOUT_SP45", "quantity" : 1, "slot" : 3}, {"item" : "LOADOUT_VINTAGEPISTOL", "quantity" : 1, "slot" : 4}]',
     -- ["all"] = '[{"item" : "LOADOUT_HEAVYPISTOL", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3},{"item" : "LOADOUT_MCX", "quantity" : 1, "slot" : 4},{"item" : "LOADOUT_AK47", "quantity" : 1, "slot" : 5},{"item" : "LOADOUT_COMBATPISTOL", "quantity" : 1, "slot" : 6}, {"item":"LOADOUT_M60", "quantity" : 1, "slot" : 7} , {"item":"LOADOUT_APPISTOL", "quantity" : 1, "slot" : 8} , {"item":"LOADOUT_M1911", "quantity" : 1, "slot" : 9}]',
     ["smgs"] = 
-    '[{"item" : "LOADOUT_SMG_MK2", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3}]',
+    '[{"item" : "LOADOUT_SMG_MK2", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3}, {{"item" : "LOADOUT_MPX", "quantity" : 1, "slot" : 4}}]',
     ["ars"] = 
-    '[{"item" : "LOADOUT_762", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_AK47", "quantity" : 1, "slot" : 2}, {"item":"LOUDOUT_M16", "quantity" : 1, "slot" : 3}, {"item":"LOADOUT_HEAVYRIFLE", "quantity" : 1, "slot" : 4}]'
+    '[{"item" : "LOADOUT_762", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_AK47", "quantity" : 1, "slot" : 2}, {"item":"LOUDOUT_M16", "quantity" : 1, "slot" : 3}, {"item":"LOADOUT_HEAVYRIFLE", "quantity" : 1, "slot" : 4}, {"item":"LOADOUT_COMPACTRIFLE", "quantity" : 1, "slot" : 5}]'
 }
 
 CreateThread(function()
@@ -185,25 +185,19 @@ Config.Weapons = {
     ["WEAPON_COMBATPISTOL"] = "9mm_rounds",
     ["WEAPON_COMPACTRIFLE"] = "556_rounds",
     ["WEAPON_HEAVYPISTOL"] = "9mm_rounds",
-    ["WEAPON_M1911"] = "9mm_rounds",
     ["WEAPON_SP45"] = "9mm_rounds",
-    ["WEAPON_MG"] = "762_rounds",
     ["WEAPON_PISTOL50"] = "9mm_rounds",
     ["WEAPON_SMG_MK2"] = "9mm_rounds",
-    ["WEAPON_MP9A"] = "9mm_rounds",
     ["WEAPON_CARBINERIFLE"] = "556_rounds",
-    ["WEAPON_M9"] = "9mm_rounds",
-    ["WEAPON_MARKSMANPISTOL"] = "556_rounds",
-    ["WEAPON_COMBATMG"] = "556_rounds",
     ["WEAPON_CARBINERIFLE_MK2"] = "556_rounds",
     ["WEAPON_SPECIALCARBINE_MK2"] = "556_rounds",
-    ["WEAPON_COMBATMG_MK2"] = "556_rounds",
-    ["WEAPON_SPECIALCARBINE"] = "556_rounds",
-    ["WEAPON_ADVANCEDRIFLE"] = "556_rounds",
     ["WEAPON_PISTOL50"] = "50cal_rounds",
-    ["WEAPON_PUMPSHOTGUN"] = "shotgun_shells",
     ["WEAPON_HEAVYRIFLE"] = "556_rounds",
-    ["WEAPON_VINTAGEPISTOL"] = "9mm_rounds"
+    ["WEAPON_VINTAGEPISTOL"] = "9mm_rounds",
+    ["WEAPON_CARBINERIFLE"] = "556_rounds",
+    ["WEAPON_COMPACTRIFLE"] = "556_rounds",
+    ["WEAPON_COMBATPDW"] = "9mm_rounds",
+    ["WEAPON_MICROSMG"] = "9mm_rounds"
 }
 
 
@@ -214,19 +208,15 @@ Config.Loadouts = {
     {name = "LOADOUT_762", format = "762 Loadout", kit = "762"},
     {name = "LOADOUT_AK47", format = "AK-47 Loadout", kit = "akm"},
     {name = "LOADOUT_COMBATPISTOL", format = "Combat Pistol Loadout", kit = "combatpistol"},
-    {name = "LOADOUT_M60", format = "M60 Loadout", kit = "m60carbmk2"},
-    {name = "LOADOUT_MCXHEAVY", format = "MCX + Heavy", kit = "mcxheavy"},
-    {name = "LOADOUT_APPISTOL", format = "AP Loadout", kit = "appistol"},
-    {name = "LOADOUT_M1911", format = "M1911 Loadout", kit = "m1911"},
-    {name = "LOADOUT_M60_MK2", format = "M60 MK2 Loadout", kit = "mayhem-kill-leader"},
-    {name = "LOADOUT_SPECIALCARBINE", format = "Special Carbine Loadout", kit = "m60adv"},
-    {name = "LOADOUT_PISTOL50", format = "Pistol 50 Loadout", kit = "deagle"},
-    {name = "LOADOUT_PUMPSHOTGUN", format = "Pump Shotgun Loadout", kit = "pumpshotgun"},
     {name = "LOADOUT_SP45", format = "SP45 Loadout", kit = "sp"},
     {name= "LOADOUT_M16", format = "M16 JAWN", kit = "m16"},
     {name= "LOADOUT_HEAVYRIFLE", format = "Heavyrifle", kit = "heavyrifle"},
     {name= "LOADOUT_VINTAGEPISTOL", format = "Vintage Pistol", kit = "vintage"},
-    {name= "LOADOUT_SMG_MK2", format = "MP5", kit = "mp5"}
+    {name= "LOADOUT_SMG_MK2", format = "MP5", kit = "mp5"},
+    {name= "LOAD_CARBINERIFLE", format = "MK18", kit="mk18"},
+    {name= "LOADOUT_COMPACTRIFLE", format= "draco", kit="draco"},
+    {name= "LOADOUT_COMBATPDW", format= "mpx", kit="mpx"},
+    {name= "LOADOUT_MICROSMG", format= "uzi", kit="uzi"}
 
 }
 

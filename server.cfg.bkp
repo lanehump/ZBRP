@@ -46,7 +46,7 @@ ensure loadingscreen
 ensure carcommand
 ensure vClear
 ensure safezone
-
+ensure seatswitch
 
 
 

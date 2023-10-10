@@ -62,7 +62,7 @@ CreateThread(function()
             end
         end
     })
-
+    
     Item.Register("armour", {
         func = function(item)
             if Player.Armour() == 100 then return false end 

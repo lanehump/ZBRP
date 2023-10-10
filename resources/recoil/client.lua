@@ -119,6 +119,7 @@ Citizen.CreateThread(function()
 			DisableControlAction(0, 142, true)
 			DisableControlAction(0, 263, true)
 			DisableControlAction(0, 264, true)
+			SetPlayerHealthRechargeMultiplier(PlayerId(), 0.0)
 
 	end
 end)

@@ -18,6 +18,11 @@ function API.UseItem(item, slot) -- this is just a translator, its really useles
 end
 RegisterNetEvent("inventory.api:useItem", API.UseItem)
 
+function ShowNotification(text)
+    SetNotificationTextEntry("STRING")
+    AddTextComponentSubstringPlayerName(text)
+    DrawNotification(false, false)
+end
 
 
 
@@ -25,11 +30,14 @@ RegisterNetEvent("inventory.api:useItem", API.UseItem)
 --[[
     MAIN ITEM REGISTER THREAD
 ]]
-
+local healing = false
 CreateThread(function()
     Item.Register("oxy", {
         func = function(item)
-            if Player.Health() == 200 then return false end
+            if Player.Health() == 200 or healing == true then
+                ShowNotification("~g~Already Healing or Full HP.")
+                return false
+            end
             RequestAnimDict("mp_suicide")
             TaskPlayAnim(GetPlayerPed(-1), "mp_suicide", "pill", 8.0, 1.0, -1, 49, 0, 0, 0, 0 )
             local finished = exports["erp_progressbar"]:taskBar({
@@ -39,13 +47,18 @@ CreateThread(function()
             ClearPedTasks(GetPlayerPed(-1))
             if (finished == 100) then
                 local count = math.random(30, 60)
-
+                healing = true
                 while count > 0 do
                     Wait(1000)
                     count = count - 1
                     healAmount = math.random(1, 4)
                     SetEntityHealth(GetPlayerPed(-1), GetEntityHealth(GetPlayerPed(-1)) + healAmount)
+                    if IsEntityDead(GetPlayerPed(-1)) then
+                        healing = false
+                        break
+                    end
                 end
+                healing = false
             end
         end
     })
@@ -53,11 +66,10 @@ CreateThread(function()
     Item.Register("armour", {
         func = function(item)
             if Player.Armour() == 100 then return false end 
-            Player.InAnim = true
             -- loadAnimDict("clothingshirt")  
-            loadAnimDict("clothingtie")  	
+            RequestAnimDict("clothingtie")
             -- TaskPlayAnim(Player.Ped(), "clothingshirt", "try_shirt_positive_d", 8.0, 1.0, -1, 49, 0, 0, 0, 0)
-            TaskPlayAnim(PlayerPedId(), "clothingtie", "try_tie_negative_a", 1.0, -1, -1, 50, 0, 0, 0, 0)
+            TaskPlayAnim(GetPlayerPed(-1), "clothingtie", "try_tie_negative_a", 1.0, -1, -1, 50, 0, 0, 0, 0)
             local finished = exports["erp_progressbar"]:taskBar({
                 length = 7500,
                 text = "Medium Armour"
@@ -67,11 +79,10 @@ CreateThread(function()
                 SetPlayerMaxArmour(PlayerId(), 100)
                 AddArmourToPed(Player.Ped(), 60)
                 -- StopAnimTask(Player.Ped(), "clothingshirt", "try_shirt_positive_d", 1.0)
-                StopAnimTask(Player.Ped(), "clothingtie", "try_tie_negative_a", 1.0)
-                Player.InAnim = false
+                ClearPedTasks(GetPlayerPed(-1))
                 API.RemoveItem(item, 1)
             end
-            Player.InAnim = false
+            ClearPedTasks(GetPlayerPed(-1))
             return true
         end,
         animClearance = true

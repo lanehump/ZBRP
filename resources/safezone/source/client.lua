@@ -22,7 +22,6 @@ Citizen.CreateThread(function()
             local radius = Config.Radius
             if #(playerCoords - vector3(x, y, z)) <= radius then
                 NetworkSetFriendlyFireOption(false)
-                DisableControlAction(0, 140)
             else
                 NetworkSetFriendlyFireOption(true)
             end

@@ -24,13 +24,6 @@ if Config.SqlKeybinding then
 	RegisterServerEvent("dp:ServerKeybindExist")
 	AddEventHandler('dp:ServerKeybindExist', function()
 		local src = source local srcid = GetPlayerIdentifier(source)
-		MySQL.Async.fetchAll('SELECT * FROM dpkeybinds WHERE `id`=@id;', {id = srcid}, function(dpkeybinds)
-			if dpkeybinds[1] then
-				TriggerClientEvent("dp:ClientKeybindExist", src, true)
-			else
-				TriggerClientEvent("dp:ClientKeybindExist", src, false)
-			end
-		end)
 	end)
 
 	--  This is my first time doing SQL stuff, and after i finished everything i realized i didnt have to store the keybinds in the database at all.

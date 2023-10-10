@@ -1,3 +1,4 @@
+
 function ShowNotification(text)
     SetNotificationTextEntry("STRING")
     AddTextComponentSubstringPlayerName(text)
@@ -22,7 +23,7 @@ RegisterCommand('car', function(source, args, rawCommand)
             end
         end
 
-        local vehicle = CreateVehicle(vehiclehash, x, y, z, GetEntityHeading(PlayerPedId()) + 90, 1, 0)
+        local vehicle = CreateVehicle(vehiclehash, x, y, z, GetEntityHeading(PlayerPedId()), 1, 0)
         SetVehicleModKit(vehicle, 0) -- Set the mod kit to default (0)
 
         -- Apply upgrades to the spawned vehicle
@@ -41,8 +42,8 @@ RegisterCommand('car', function(source, args, rawCommand)
         SetVehicleMod(vehicle, 0, 2)
         
         TaskWarpPedIntoVehicle(PlayerPedId(), vehicle, -1)
-
-
-        ShowNotification("Spawned " .. veh .. " with max upgrades including a spoiler.")
     end)
 end)
+
+
+

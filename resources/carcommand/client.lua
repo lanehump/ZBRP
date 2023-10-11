@@ -5,7 +5,6 @@ function ShowNotification(text)
     AddTextComponentSubstringPlayerName(text)
     DrawNotification(false, false)
 end
-
 RegisterCommand('car', function(source, args, rawCommand)
     local AllowedCars = {
         "revolter",
@@ -13,7 +12,31 @@ RegisterCommand('car', function(source, args, rawCommand)
         "coquette",
         "coquette4",
         "paragon",
-        "jester"
+        "jester",
+        "omnisegt",
+        "pariah",
+        "seven70",
+        "specter2",
+        "sultan3",
+        "tenf2",
+        "vectre",
+        "buffalo2",
+        "calico",
+        "elegy",
+        "feltzer",
+        "italigto",
+        "jester4",
+        "jugular",
+        "karuma",
+        "sultan",
+        "lynx",
+        "massacro",
+        "neon",
+        "sultan2",
+        "cliffhanger",
+        "bf400",
+        "sanchez",
+        "mamba"
     }
     local allowed = false
     local x, y, z = table.unpack(GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 0, 0.5))
@@ -78,7 +101,8 @@ RegisterKeyMapping('+keypress', 'My Keypress Key', 'keyboard', 'f3')
 RegisterCommand('+keypress', function()
     local x, y, z = table.unpack(GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 0, 0.5))
     local vehiclehash = LastSpawnedCar
-    local InSafeZone = exports.safezone:insafezone()
+    local InSafeZone = exports['safezone']:insafezone()
+
     if not InSafeZone then
         ShowNotification("~r~You may not spawn cars outside of safezone.")
         return

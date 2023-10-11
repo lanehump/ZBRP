@@ -3,7 +3,6 @@
 --      by BreezyTheDev           --
 --		GNU License v3.0		  --
 --================================--
-local InSafeZone = true
 CreateThread(function()
     while true do
         playerCoords = GetEntityCoords(PlayerPedId()) -- Gets player coords every 5th of a second
@@ -12,6 +11,7 @@ CreateThread(function()
 end)
 
 Citizen.CreateThread(function()
+    local InSafeZone = true
     while true do
         Citizen.Wait(1)
         local locations = Config.Locations

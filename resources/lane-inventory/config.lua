@@ -155,7 +155,7 @@ Config.LoadoutData = {
     '[{"item" : "LOADOUT_HEAVYPISTOL", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2}, {"item" : "LOADOUT_SP45", "quantity" : 1, "slot" : 3}, {"item" : "LOADOUT_VINTAGEPISTOL", "quantity" : 1, "slot" : 4}]',
     -- ["all"] = '[{"item" : "LOADOUT_HEAVYPISTOL", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3},{"item" : "LOADOUT_MCX", "quantity" : 1, "slot" : 4},{"item" : "LOADOUT_AK47", "quantity" : 1, "slot" : 5},{"item" : "LOADOUT_COMBATPISTOL", "quantity" : 1, "slot" : 6}, {"item":"LOADOUT_M60", "quantity" : 1, "slot" : 7} , {"item":"LOADOUT_APPISTOL", "quantity" : 1, "slot" : 8} , {"item":"LOADOUT_M1911", "quantity" : 1, "slot" : 9}]',
     ["smgs"] = 
-    '[{"item" : "LOADOUT_SMG_MK2", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3}, {{"item" : "LOADOUT_MPX", "quantity" : 1, "slot" : 4}}]',
+    '[{"item" : "LOADOUT_SMG_MK2", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_M9", "quantity" : 1, "slot" : 2},{"item" : "LOADOUT_MP9", "quantity" : 1, "slot" : 3}, {{"item" : "LOADOUT_MPX", "quantity" : 1, "slot" : 4}}, {{"item" : "LOADOUT_TOMMY", "quantity" : 1, "slot" : 5}}]',
     ["ars"] = 
     '[{"item" : "LOADOUT_762", "quantity" : 1, "slot" : 1},{"item" : "LOADOUT_AK47", "quantity" : 1, "slot" : 2}, {"item":"LOUDOUT_M16", "quantity" : 1, "slot" : 3}, {"item":"LOADOUT_HEAVYRIFLE", "quantity" : 1, "slot" : 4}, {"item":"LOADOUT_COMPACTRIFLE", "quantity" : 1, "slot" : 5}]'
 }
@@ -197,7 +197,9 @@ Config.Weapons = {
     ["WEAPON_CARBINERIFLE"] = "556_rounds",
     ["WEAPON_COMPACTRIFLE"] = "556_rounds",
     ["WEAPON_COMBATPDW"] = "9mm_rounds",
-    ["WEAPON_MICROSMG"] = "9mm_rounds"
+    ["WEAPON_MICROSMG"] = "9mm_rounds",
+    ["WEAPON_GUSENBERG"] = "9mm_rounds",
+    ["WEAPON_ASSAULTSMG"] = "9mm_rounds"
 }
 
 
@@ -216,7 +218,9 @@ Config.Loadouts = {
     {name= "LOAD_CARBINERIFLE", format = "MK18", kit="mk18"},
     {name= "LOADOUT_COMPACTRIFLE", format= "draco", kit="draco"},
     {name= "LOADOUT_COMBATPDW", format= "mpx", kit="mpx"},
-    {name= "LOADOUT_MICROSMG", format= "uzi", kit="uzi"}
+    {name= "LOADOUT_MICROSMG", format= "uzi", kit="uzi"},
+    {name= "LOADOUT_GUSENBERG", format= "tommy", kit="tommy"},
+    {name= "LOADOUT_ASSAULTSMGG", format= "magpull", kit="magpull"}
 
 }
 

@@ -115,6 +115,22 @@ Kits = {
             {item = "9mm_rounds", amount = 250, slot = 15},
             {item = "repairkit", amount = 1, slot = 10}
         },
+        ["tommy"] = {
+            {item = "WEAPON_GUSENBERG", primary = true, amount = 1, slot = 1},
+            {item = "armour", amount = 5, slot = 2},
+            {item = "oxy", amount = 30, slot = 3},
+            {item = "radio", amount = 1, slot = 6},
+            {item = "9mm_rounds", amount = 250, slot = 15},
+            {item = "repairkit", amount = 1, slot = 10}
+        },
+        ["magpull"] = {
+            {item = "WEAPON_ASSAULTSMG", primary = true, amount = 1, slot = 1},
+            {item = "armour", amount = 5, slot = 2},
+            {item = "oxy", amount = 30, slot = 3},
+            {item = "radio", amount = 1, slot = 6},
+            {item = "9mm_rounds", amount = 250, slot = 15},
+            {item = "repairkit", amount = 1, slot = 10}
+        },
 }
 
 

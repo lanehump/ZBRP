@@ -78,7 +78,7 @@ RegisterCommand('car', function(source, args, rawCommand)
                 SetVehicleMod(vehicle, 11, 3) -- Engine Upgrade Max = 3
                 SetVehicleMod(vehicle, 13, 3) -- Transmision Upgrade Max = 3
                 SetVehicleMod(vehicle, 15, 3) -- Suspension Upgrade Max = 3
-            SetVehicleMod(vehicle, 18, 0) -- Turbo Upgrade Max = ? Can't find max Upgrade Integer :(
+                SetVehicleMod(vehicle, 18, 0) -- Turbo Upgrade Max = ? Can't find max Upgrade Integer :(
                 SetVehicleMod(vehicle, 12, 2) -- Brakes Upgrade Max = 2
 
         -- Add a spoiler as a visual upgrade using the representation you provided

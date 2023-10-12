@@ -2,6 +2,7 @@ Citizen.CreateThread(function()
     local isDead = false
     local hasBeenDead = false
 	local diedAt
+    local deaths = 0
 
     while true do
         Wait(0)

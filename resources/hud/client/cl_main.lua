@@ -12,6 +12,16 @@ local hudValues = {
     left = nil
 }
 
+local kills = 0
+local deaths = 0
+
+AddEventHandler('baseevents:onPlayerDied', function()
+    deaths = deaths + 1
+end)
+AddEventHandler('baseevents:onPlayerKilled', function()
+    kills = kills + 1
+end)
+
 CreateThread(function()
     while not NetworkIsPlayerActive(PlayerId()) do Wait(100) end 
     hudValues.up = GetResourceKvpString("arena_hud_up")
@@ -43,6 +53,19 @@ RegisterNUICallback("exit", function(data)
     SetResourceKvp("arena_hud_left", data.left)
     TriggerEvent("notifyClient", "~g~Saving hud position", "centerRight", 2500)
 end)
+
+function Draw2DText(x, y, text, scale)
+    SetTextFont(4)
+    SetTextProportional(7)
+    SetTextScale(scale, scale)
+    SetTextColour(255, 255, 255, 255)
+    SetTextDropShadow(0, 0, 0, 0,255)
+    SetTextEdge(4, 0, 0, 0, 255)
+    SetTextEntry("STRING")
+    AddTextComponentString(text)
+    DrawText(x, y)
+end
+
 
 Citizen.CreateThread(function()
     listening = true
@@ -151,7 +174,8 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
         -- If enabled only show radar when in a vehicle (use a zoomed out view)
         DisplayRadar(false)
-
+        Draw2DText(0.01, 0.9, 'Kills: ' .. kills, 0.50)
+        Draw2DText(0.01, 0.93, 'Deaths: ' .. deaths, 0.50)
         -- Hide other HUD components
         for key, val in pairs(HUD_ELEMENTS) do
             DisplayAmmoThisFrame(true)

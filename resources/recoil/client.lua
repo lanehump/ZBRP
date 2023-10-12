@@ -1,3 +1,52 @@
+local stats = {
+    [1] = {Name="Jacoby", Kills = 4535, Deaths = 1213},
+    [2] = {Name="Tronix", Kills = 4535, Deaths = 1213},
+    [3] = {Name="Lane", Kills = 4535, Deaths = 1213},
+    [4] = {Name="Torra", Kills = 4535, Deaths = 1213},
+    [5] = {Name="Benny", Kills = 4535, Deaths = 1213}
+}
+
+function DrawShit(coords, text)
+    x,y,z = table.unpack(coords)
+    local onScreen,_x,_y=World3dToScreen2d(x,y,z)
+    local px,py,pz=table.unpack(GetGameplayCamCoords())
+
+    SetTextScale(0.50, 0.50)
+    SetTextFont(4)
+    SetTextProportional(1)
+    SetTextColour(255, 255, 255, 215)
+    SetTextDropShadow()
+    SetTextEntry("STRING")
+    SetTextCentre(1)
+    AddTextComponentString(text)
+    DrawText(_x,_y)
+end
+
+Citizen.CreateThread(function() 
+    local drawsleep = 1000
+    while true do   
+        Citizen.Wait(drawsleep)
+
+        local dist = GetDistanceBetweenCoords(GetEntityCoords(GetPlayerPed(-1)), 233.8, -1387.79, 30.55, true)
+
+        if dist < 8 then 
+
+            drawsleep = 3
+            DrawShit(vector3(233.8, -1387.79, 30.55 + 1.1), "~w~ZB ~g~RP")
+            DrawShit(vector3(233.8, -1387.79, 30.55 + 0.9), "~g~"..stats[1].Name.."~w~ ~r~Kills~w~: "..stats[1].Kills.." ~r~Deaths~w~: "..stats[1].Deaths)
+            DrawShit(vector3(233.8, -1387.79, 30.55 + 0.7), "~g~"..stats[2].Name.."~w~ ~r~Kills~w~: "..stats[2].Kills.." ~r~Deaths~w~: "..stats[2].Deaths)
+            DrawShit(vector3(233.8, -1387.79, 30.55 + 0.5), "~g~"..stats[3].Name.."~w~ ~r~Kills~w~: "..stats[3].Kills.." ~r~Deaths~w~: "..stats[3].Deaths)
+            DrawShit(vector3(233.8, -1387.79, 30.55 + 0.3), "~g~"..stats[4].Name.."~w~ ~r~Kills~w~: "..stats[4].Kills.." ~r~Deaths~w~: "..stats[4].Deaths)
+            DrawShit(vector3(233.8, -1387.79, 30.55 + 0.1), "~g~"..stats[5].Name.."~w~ ~r~Kills~w~: "..stats[5].Kills.." ~r~Deaths~w~: "..stats[5].Deaths)
+
+        else
+            drawsleep = 2000
+        end
+   end
+end)
+
+
+
 local WeaponRecoil = {
 --m16
 	[`weapon_tacticalrifle`] = {

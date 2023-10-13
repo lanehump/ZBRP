@@ -30,3 +30,17 @@ AddEventHandler("wld:delallvehauto", function ()
         end
     end
 end)
+
+RegisterKeyMapping('dv', 'Delete Vehicle', 'keyboard', 'k')
+
+RegisterCommand('dv', function()
+    local InSafeZone = exports['safezone']:insafezone()
+    local vehicle = GetVehiclePedIsIn(GetPlayerPed(-1))
+    if InSafeZone then
+        SetVehicleHasBeenOwnedByPlayer(vehicle, false) 
+        SetEntityAsMissionEntity(vehicle, true, true) 
+        DeleteVehicle(vehicle)
+        print("i worked")
+    end
+
+end)

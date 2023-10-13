@@ -15,11 +15,15 @@ local hudValues = {
 local kills = 0
 local deaths = 0
 
-AddEventHandler('baseevents:onPlayerDied', function()
+
+AddEventHandler('baseevents:onPlayerKilled', function(killerId, data)
     deaths = deaths + 1
+    TriggerServerEvent("KilledWhateverShit", killerId)
 end)
-AddEventHandler('baseevents:onPlayerKilled', function()
-    kills = kills + 1
+
+RegisterNetEvent("Kill:Add")
+AddEventHandler("Kill:Add", function()
+  kills = kills + 1
 end)
 
 CreateThread(function()

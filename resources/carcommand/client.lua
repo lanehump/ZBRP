@@ -96,9 +96,9 @@ RegisterCommand('car', function(source, args, rawCommand)
 end)
 
 -- client side
-RegisterKeyMapping('+keypress', 'My Keypress Key', 'keyboard', 'f3')
+RegisterKeyMapping('respawnlastcar', 'Respawn Last used car', 'keyboard', 'f3')
 
-RegisterCommand('+keypress', function()
+RegisterCommand('respawnlastcar', function()
     local x, y, z = table.unpack(GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 0, 0.5))
     local vehiclehash = LastSpawnedCar
     local InSafeZone = exports['safezone']:insafezone()

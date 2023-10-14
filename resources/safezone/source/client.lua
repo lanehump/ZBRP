@@ -8,6 +8,24 @@ CreateThread(function()
     while true do
         playerCoords = GetEntityCoords(PlayerPedId()) -- Gets player coords every 5th of a second
         Wait(500)
+
+        if InSafeZone then
+            for _, i in ipairs(GetActivePlayers()) do
+                if i ~= PlayerId() then
+                  local closestPlayerPed = GetPlayerPed(i)
+                  local veh = GetVehiclePedIsIn(closestPlayerPed, false)
+                  SetEntityCollision(veh, GetVehiclePedIsIn(GetPlayerPed(-1), false), false)
+        else  
+            for _, i in ipairs(GetActivePlayers()) do
+                if i ~= PlayerId() then
+                    local closestPlayerPed = GetPlayerPed(i)
+                    local veh = GetVehiclePedIsIn(closestPlayerPed, false)
+                            SetEntityCollision(veh, GetVehiclePedIsIn(GetPlayerPed(-1), false), true)
+                end
+            end
+        end
+            end
+        end
     end
 end)
 

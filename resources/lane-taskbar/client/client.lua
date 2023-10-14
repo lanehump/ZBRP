@@ -32,7 +32,7 @@ local function updateStatus(type)
     Wait(1250)
     SendReactMessage("updateStatus", "normal");
     SendReactMessage("setVisible", false);
-    TriggerEvent('erp_progressbar:visible', false)
+    TriggerEvent('lane-taskbar:visible', false)
   end)
 end
 
@@ -222,7 +222,7 @@ local function taskBar(data)
   SendReactMessage("updateError", false);
   SendReactMessage("setVisible", true);
 
-  TriggerEvent('erp_progressbar:visible', true)
+  TriggerEvent('lane-taskbar:visible', true)
 
   SendReactMessage("updateWidth", 0);
   SendReactMessage("updateText", text or "")
@@ -451,7 +451,7 @@ local function taskBar(data)
     return total;
   else
     SendReactMessage("setVisible", false);
-    TriggerEvent('erp_progressbar:visible', false)
+    TriggerEvent('lane-taskbar:visible', false)
     taskStatus = { active = false, id = 0, status = 0 }
     if anim ~= "" then
       StopAnimTask(plyPed, dict, anim, 2.0)

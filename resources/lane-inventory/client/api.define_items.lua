@@ -40,7 +40,7 @@ CreateThread(function()
             end
             RequestAnimDict("mp_suicide")
             TaskPlayAnim(GetPlayerPed(-1), "mp_suicide", "pill", 8.0, 1.0, -1, 49, 0, 0, 0, 0 )
-            local finished = exports["erp_progressbar"]:taskBar({
+            local finished = exports["lane-taskbar"]:taskBar({
                 length = 3500,
                 text = "Vicodin"
             })
@@ -70,7 +70,7 @@ CreateThread(function()
             RequestAnimDict("clothingtie")
             -- TaskPlayAnim(Player.Ped(), "clothingshirt", "try_shirt_positive_d", 8.0, 1.0, -1, 49, 0, 0, 0, 0)
             TaskPlayAnim(GetPlayerPed(-1), "clothingtie", "try_tie_negative_a", 1.0, -1, -1, 50, 0, 0, 0, 0)
-            local finished = exports["erp_progressbar"]:taskBar({
+            local finished = exports["lane-taskbar"]:taskBar({
                 length = 7500,
                 text = "Medium Armour"
               })
@@ -100,7 +100,7 @@ CreateThread(function()
             -- animation + set health
             TaskStartScenarioInPlace(Player.Ped(), "CODE_HUMAN_MEDIC_KNEEL", 0, false)
             Player.InAnim = true 
-            local finished = exports["erp_progressbar"]:taskBar({
+            local finished = exports["lane-taskbar"]:taskBar({
                 length = 7500,
                 text = "BANDAGING"
               })
@@ -134,7 +134,7 @@ CreateThread(function()
             Player.InAnim = true
             TaskPlayAnim(Player.Ped(), "mini@repair", "fixing_a_player", 8.0, -8, -1, 16, 0, 0, 0, 0)
             SetVehicleDoorOpen(veh, 4, 1, 1)
-            local finished = exports["erp_progressbar"]:taskBar({
+            local finished = exports["lane-taskbar"]:taskBar({
                 length = 7500,
                 text = "repairing"
               })
@@ -173,7 +173,7 @@ CreateThread(function()
             if Player.InVehicle() then TriggerEvent("noticeme:Warn", "Cannot use joints in a car!") return false end 
             TaskStartScenarioInPlace(Player.Ped(), "WORLD_HUMAN_SMOKING_POT", 0, false)
             Player.InAnim = true
-            local finished = exports["erp_progressbar"]:taskBar({
+            local finished = exports["lane-taskbar"]:taskBar({
                 length = 3500,
                 text = "using joint"
               })
@@ -197,7 +197,7 @@ CreateThread(function()
         func = function(item)
             if Player.Armour() == 100 then return false end 
             if Player.InVehicle() and GetEntitySpeed(PlayerPedId()) < 1.0 then 
-                local finished = exports["erp_progressbar"]:taskBar({
+                local finished = exports["lane-taskbar"]:taskBar({
                     length = 3500,
                     text = "using kevlar"
                   })
@@ -217,7 +217,7 @@ CreateThread(function()
             elseif not Player.InVehicle() then 
                 TaskStartScenarioInPlace(Player.Ped(), "CODE_HUMAN_MEDIC_KNEEL", 0, false)
                 Player.InAnim = true 
-                local finished = exports["erp_progressbar"]:taskBar({
+                local finished = exports["lane-taskbar"]:taskBar({
                     length = 3500,
                     text = "using kevlar"
                   })
@@ -244,7 +244,7 @@ CreateThread(function()
             if Player.Health() == 200 then return false end 
             TaskStartScenarioInPlace(Player.Ped(), "CODE_HUMAN_MEDIC_KNEEL", 0, false)
             Player.InAnim = true 
-            local finished = exports["erp_progressbar"]:taskBar({
+            local finished = exports["lane-taskbar"]:taskBar({
                 length = 3500,
                 text = "healing"
               })
@@ -295,7 +295,7 @@ CreateThread(function()
         Item.Register(name, {
             func = function(item)
                 if Player.InVehicle() then return false end 
-                local finished = exports["erp_progressbar"]:taskBar({
+                local finished = exports["lane-taskbar"]:taskBar({
                     length = 3500,
                     text = "Using Loadout"
                   })

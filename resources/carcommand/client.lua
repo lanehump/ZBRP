@@ -91,7 +91,7 @@ RegisterCommand('car', function(source, args, rawCommand)
                 TaskWarpPedIntoVehicle(PlayerPedId(), vehicle, -1)
             end)
         else
-            ShowNotification("~g~Holy fuck get a grip and don't spawn faggot vehicles - from lane")
+            ShowNotification("~g~Holy fuck get a grip and don't spawn random shit - from lane")
         end
 end)
 
